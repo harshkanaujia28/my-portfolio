@@ -1,5 +1,10 @@
 import React from "react";
 import "./About.css";
+import code_icon from "../../assets/code-icon.png";
+import  user_img from "../../assets/user-img.png";
+import  edu_icon from "../../assets/edu-icon.png";
+import project_icon from "../../assets/project-icon.png";
+import { assets } from "../../assets/assets";
 // import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare } from "react-icons/fa";
 // import { SiNextdotjs, SiVisualstudiocode, SiFigma, SiGit } from "react-icons/si";
 
@@ -12,7 +17,7 @@ const App = () => {
       <section className="about-me">
         <div className="profile-image">
           <img
-            src="src/assets/IMG_1310.JPG"
+            src={user_img}
             alt="Profile"
             className="profile-pic"
           />
@@ -27,17 +32,17 @@ const App = () => {
           </p>
           <div className="cards">
             <div className="card">
-              <img src="src/assets/code-icon.png" alt="" />
+              <img src={code_icon} alt="" />
               <h3>Languages</h3>
               <p>HTML, CSS, JavaScript, React Js</p>
             </div>
             <div className="card">
-              <img src="src/assets/edu-icon.png" alt="" />
+              <img src= {edu_icon} alt="" />
               <h3>Education</h3>
               <p>BCA in Computer Science</p>
             </div>
             <div className="card">
-              <img src="src/assets/project-icon.png" alt="" />
+              <img src={project_icon} alt="" />
               <h3>Projects</h3>
               <p>Built 4 projects</p>
             </div>
@@ -45,11 +50,11 @@ const App = () => {
           <div className="tools">
             <h3>Tools I use</h3>
             <div className="icons">
-            <img src="src/assets/vscode.png" alt="" />
-            <img src="src/assets/figma.png" alt="" />
-            <img src="src/assets/firebase.png" alt="" />
-            <img src="src/assets/git.png "alt="" />
-            <img src="src/assets/mongodb.png" alt="" />
+            <img src={assets.vscode} alt="" />
+            <img src={assets.firebase} alt="" />
+            <img src={assets.figma} alt="" />
+            <img src={assets.git} alt="" />
+            <img src={assets.mongodb} alt="" />
            
             </div>
           </div>
