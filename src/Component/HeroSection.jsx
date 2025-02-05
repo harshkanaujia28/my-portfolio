@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
-import { assets } from "../../public/assets"; 
+import { assets } from "../assets/assets"; 
 
 const HeroSection = () => {
   return (
