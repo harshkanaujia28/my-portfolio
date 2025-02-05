@@ -41,3 +41,25 @@ export const assets = {
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+export   const projects = [
+    {
+      title: "Frontend Project",
+      type: "web design",
+      img: "src/assets/public/work-1.png", // Replace with actual image paths
+    },
+    {
+      title: "Geo Based App",
+      type: "mobile app",
+      img: "src/assets/public/work-2.png",
+    },
+    {
+      title: "Photography Site",
+      type: "web design",
+      img: "src/assets/public/work-3.png",
+    },
+    {
+      title: "UI/UX Designing",
+      type: "ui/ux design",
+      img: "src/assets/public/work-4.png",
+    },
+  ]; 

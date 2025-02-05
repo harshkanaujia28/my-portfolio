@@ -1,11 +1,12 @@
 import React from "react";
-import "./HeroSection.css"; 
+import "./HeroSection.css";
+import { assets } from "../assets/assets"; 
 
 const HeroSection = () => {
   return (
   <div id="Hero">
     <section className="hero">
-      <img src="src/assets/profile-img.png" alt="William Mark" />
+      <img src={assets.profile_img} alt="William Mark" />
       <h1>Hi! I'm Harsh Kanaujia 👋</h1>
       <h2>frontend web developer based in India.</h2>
       <p>
