@@ -41,25 +41,26 @@ export const assets = {
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
-export   const projects = [
+export const workData = [
     {
-      title: "Frontend Project",
-      type: "web design",
-      img: "src/assets/public/work-1.png", // Replace with actual image paths
+        title: 'Frontend project',
+        description: 'Web Design',
+        bgImage: '/work-1.png',  // ✅ Correct path
     },
     {
-      title: "Geo Based App",
-      type: "mobile app",
-      img: "src/assets/public/work-2.png",
+        title: 'Geo based app',
+        description: 'Mobile App',
+        bgImage: '/work-2.png',  // ✅ Correct path
     },
     {
-      title: "Photography Site",
-      type: "web design",
-      img: "src/assets/public/work-3.png",
+        title: 'Photography site',
+        description: 'Web Design',
+        bgImage: '/work-3.png',  // ✅ Correct path
     },
     {
-      title: "UI/UX Designing",
-      type: "ui/ux design",
-      img: "src/assets/public/work-4.png",
+        title: 'UI/UX designing',
+        description: 'UI/UX Design',
+        bgImage: '/work-4.png',  // ✅ Correct path
     },
-  ]; 
+];
+
