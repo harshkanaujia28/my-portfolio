@@ -1,0 +1,204 @@
+/* Default Light Theme */
+body, html {
+  background-color: #ffffff; /* Light mode background */
+  color: #000000; /* Light mode text */
+  transition: background 0.3s ease, color 0.3s ease;
+  height: 100%;
+  width: 100%;
+}
+
+/* Dark Mode */
+body.dark-theme, html.dark-theme {
+  background-color: #11001f !important; /* Dark mode background */
+  color: #ffffff !important; /* Dark mode text */
+}
+
+/* Ensure all sections also get dark background */
+body.dark-theme * {
+  background-color:#11001f!important;
+}
+
+/* Dark mode for specific sections */
+body.dark-theme .header,
+body.dark-theme .section,
+body.dark-theme .footer {
+  background-color: #11001f!important;
+}
+
+/* Change colors for navigation links */
+body.dark-theme .nav a {
+  color: #ffffff !important;
+}
+
+/* Change buttons in dark mode */
+body.dark-theme .btn {
+  background-color: #444 !important;
+  color: white !important;
+}
+
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px 50px; */
+  /* position: fixed; */
+
+  
+
+}
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-color);
+  }
+  
+  .header .logo span {
+    color: var(--accent-color);
+  }
+  
+  .header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.3s;
+    text-align: center;
+  }
+  
+  .header nav a:hover {
+    color: black;
+  }
+  img{
+   
+    width: 30px;
+  }
+  /* Header.css */
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0d1117;
+  color: #fff;
+  position: relative;
+} */
+
+/* .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+} */
+
+.logo span {
+  color: #161616;
+}
+
+/* .nav {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+} */
+
+/* .nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 5px 10px;
+  transition: color 0.3s ease-in-out;
+} */
+
+.nav a:hover {
+  color: #3fcf8e;
+}
+
+/* .nav .contact-btn {
+  background-color: #3fcf8e;
+  color: #0d1117;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+} */
+
+.nav .contact-btn:hover {
+  background-color: #34a472;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon img {
+  width: 25px;
+  height: 25px;
+}
+.btn{
+  margin-right: 250px;
+  margin-left: 40px;
+}
+.moon{
+  margin-left: 250px;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    justify-content:flex-start;
+    gap: 50px;
+    top: 60px;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+   height: 100vh;
+    width: 200px;
+    padding: 60px;
+    transform: translateX(100%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav.open {
+    transform: translateX(0);
+  }
+
+  .menu-icon {
+    display: block;
+  }
+  .header nav a {
+ margin-right: 80px;
+  }
+  .menu{
+  
+    margin-right: 80px;
+  }
+  .btn{
+    display: none;
+    /* margin-right: 80px; */
+  }  
+  .moon{
+   margin-left: 0;
+   margin-right:40px;
+    width: 30px;
+  cursor: pointer;
+    /* display: none; */
+  }
+
+}

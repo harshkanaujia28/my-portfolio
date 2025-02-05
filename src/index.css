@@ -1,0 +1,20 @@
+/* Reset some defaults */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+:root {
+  --bg-gradient: linear-gradient(to bottom right, #ffffff, #f3e8ff, #e0f2ff);
+  --text-color: #333333;
+  --accent-color: #ff4a4a;
+}
+
+body {
+  background: var(--bg-gradient);
+  color: var(--text-color);
+}
+
+
+

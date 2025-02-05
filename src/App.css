@@ -1,0 +1,31 @@
+/* Default Light Mode */
+body {
+    background-color: #ffffff; /* Light mode background */
+    color: #000000; /* Light mode text */
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Dark Mode */
+  body.dark-theme {
+    background-color: #121212 !important; /* Dark mode background */
+    color: #ffffff !important; /* Dark mode text */
+  }
+  
+  /* Dark mode for specific sections (if needed) */
+  body.dark-theme .header,
+  body.dark-theme .section,
+  body.dark-theme .footer {
+    background-color: #1a1a1a; /* Darker background for sections */
+  }
+  
+  /* Change colors for navigation links */
+  body.dark-theme .nav a {
+    color: #ffffff !important;
+  }
+  
+  /* Change buttons in dark mode */
+  body.dark-theme .btn {
+    background-color: #444 !important;
+    color: white !important;
+  }
+  
