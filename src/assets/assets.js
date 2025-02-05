@@ -80,24 +80,25 @@ export const workData = [
     {
         title: 'Frontend project',
         description: 'Web Design',
-        bgImage: 'src/assets/work-1.png',
+        bgImage: '/work-1.png',  // ✅ Correct path
     },
     {
         title: 'Geo based app',
         description: 'Mobile App',
-        bgImage: 'src/assets/work-2.png',
+        bgImage: '/work-2.png',  // ✅ Correct path
     },
     {
         title: 'Photography site',
         description: 'Web Design',
-        bgImage: 'src/assets/work-3.png',
+        bgImage: '/work-3.png',  // ✅ Correct path
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
-        bgImage: 'src/assets/work-4.png',
+        bgImage: '/work-4.png',  // ✅ Correct path
     },
-]
+];
+
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
