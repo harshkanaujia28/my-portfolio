@@ -1,6 +1,6 @@
 import React from "react";
 import "./PortfolioSection.css";
-import { workData } from "../../assets/assets";
+import { workData } from "../../../public/assets";
 
 const PortfolioSection = () => {
   // const projects = [
