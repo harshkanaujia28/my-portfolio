@@ -1,9 +1,5 @@
 import React from "react";
 import "./About.css";
-import code_icon from "../../assets/code-icon.png";
-import  user_img from "../../assets/user-img.png";
-import  edu_icon from "../../assets/edu-icon.png";
-import project_icon from "../../assets/project-icon.png";
 import { assets } from "../../assets/assets";
 // import { FaHtml5, FaCss3Alt, FaReact, FaJsSquare } from "react-icons/fa";
 // import { SiNextdotjs, SiVisualstudiocode, SiFigma, SiGit } from "react-icons/si";
@@ -17,7 +13,7 @@ const App = () => {
       <section className="about-me">
         <div className="profile-image">
           <img
-            src={user_img}
+            src={assets.user_img}
             alt="Profile"
             className="profile-pic"
           />
@@ -32,17 +28,17 @@ const App = () => {
           </p>
           <div className="cards">
             <div className="card">
-              <img src={code_icon} alt="" />
+              <img src={assets.code_icon} alt="" />
               <h3>Languages</h3>
               <p>HTML, CSS, JavaScript, React Js</p>
             </div>
             <div className="card">
-              <img src= {edu_icon} alt="" />
+              <img src= {assets.edu_icon} alt="" />
               <h3>Education</h3>
               <p>BCA in Computer Science</p>
             </div>
             <div className="card">
-              <img src={project_icon} alt="" />
+              <img src={assets.project_icon} alt="" />
               <h3>Projects</h3>
               <p>Built 4 projects</p>
             </div>
