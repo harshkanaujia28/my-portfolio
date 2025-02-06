@@ -35,7 +35,7 @@ const Header = () => {
         <a href="#services" onClick={(e) => handleNavClick(e, "services")}>Services</a>
         <a href="#work" onClick={(e) => handleNavClick(e, "work")}>My Work</a>
         <img src={moonIcon} className="moon" alt="Dark mode toggle" onClick={toggleDarkMode} />
-        <button className="btn">Contact Me</button>
+       <a href="#contact"> <button className="btn">Contact Me</button></a>
       </nav>
       <div className="menu-icon" onClick={toggleMenu} aria-label="Toggle menu">
         <img src={moonIcon} className="moon" alt="Dark mode toggle" onClick={toggleDarkMode} />

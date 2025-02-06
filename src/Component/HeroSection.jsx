@@ -13,7 +13,7 @@ const HeroSection = () => {
         I am a frontend developer from Kanpur, Uttar Pradesh
       </p>
       <div>
-        <button className="btn">Contact with me →</button>
+     <a href="#contact"><button className="btn">Contact with me →</button></a>
         <button className="resume">my resume ⬇</button>
       </div>
     </section>
