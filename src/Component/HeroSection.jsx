@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 
 const HeroSection = () => {
   return (
-  <div id="Hero">
+  <div id="home">
     <section className="hero">
       <img src={assets.profile_img} alt="William Mark" />
       <h1>Hi! I'm Harsh Kanaujia 👋</h1>
