@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
+import { assets } from "../../assets/assets";
 
-const ContactForm = () => {
+const ContactForm = ({ darkMode }) => {
   const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
@@ -13,7 +14,7 @@ const ContactForm = () => {
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -26,33 +27,36 @@ const ContactForm = () => {
       setResult(data.message);
     }
   };
+
   return (
     <section id="contact">
-    <div id="contact">
-    <div className="contact-container">
-      <div className="contact-header">
-        <h2>Connect with me</h2>
-        <h1>Get in touch</h1>
-        <p>
-          I'd love to hear from you! If you have any questions, comments, or
-          feedback, please use the form below.
-        </p>
-      </div>
-      <form  onSubmit= {onSubmit}className="contact-form">
-        <div className="form-row">
-          <input type="text" placeholder="Enter your name" name="name" required/>
-          <input type="email" placeholder="Enter your email" name="email" required/>
+      <div id="contact">
+        <div className={`contact-container ${darkMode ? "dark" : ""}`}>
+          <div className="contact-header">
+            <h2>Connect with me</h2>
+            <h1>Get in touch</h1>
+            <p>
+              I'd love to hear from you! If you have any questions, comments, or
+              feedback, please use the form below.
+            </p>
+          </div>
+          <form onSubmit={onSubmit} className="contact-form">
+            <div className="form-row">
+              <input type="text" placeholder="Enter your name" name="name" required />
+              <input type="email" placeholder="Enter your email" name="email" required />
+            </div>
+            <textarea placeholder="Enter your message" name="message" required></textarea>
+            <button type="submit">Submit now →</button>
+            <p>{result}</p>
+          </form>
+          <footer className="contact-footer">
+            <h2>ℋ𝒜ℛ𝒮ℋ.</h2>
+            <p>
+              <img src={darkMode ? assets.mail_icon_dark : assets.mail_icon} alt="" /> harshfrontenddev@gmail.com
+            </p>
+          </footer>
         </div>
-        <textarea placeholder="Enter your message" name="message" required></textarea>
-        <button type="submit">Submit now →</button>
-        <p>{result}</p>
-      </form>
-      <footer className="contact-footer">
-        <h2>ℋ𝒜ℛ𝒮ℋ.</h2>
-        <p>harshfrontenddev@gmail.com</p>
-      </footer>
-    </div>
-    </div>
+      </div>
     </section>
   );
 };

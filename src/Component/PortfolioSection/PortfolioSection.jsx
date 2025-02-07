@@ -1,6 +1,6 @@
 import React from "react";
 import "./PortfolioSection.css";
-import { workData } from "../../assets/assets"; // ✅ Ensure correct import
+import { assets, workData } from "../../assets/assets"; // ✅ Ensure correct import
 
 const PortfolioSection = () => {
   return (
@@ -19,7 +19,7 @@ const PortfolioSection = () => {
                 <h2>{project.title}</h2>
                 <p>{project.description}</p>
                 <button className="view-more">
-                  <span>→</span>
+                  <span><img src={assets.send_icon} alt="" /></span>
                 </button>
               </div>
             </div>

@@ -13,16 +13,17 @@ const App = () => {
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
+    document.body.classList.toggle("dark-theme");
   };
   return (
     <>
     <div className={darkMode ? "dark-mode" : ""}>
-      <Header />
+    <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <HeroSection />
-      <About/>
+      <About  darkMode={darkMode} />
       <Services/>
       <PortfolioSection/>
-      <ContactForm/>
+      <ContactForm darkMode={darkMode} />
       <Footer/>
       </div>
     </>

@@ -124,6 +124,16 @@ body.dark-theme .btn {
 .nav a:hover {
   color: #3fcf8e;
 }
+.menu-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.moon {
+  width: 24px; /* Adjust icon size */
+  cursor: pointer;
+}
 
 /* .nav .contact-btn {
   background-color: #3fcf8e;
@@ -199,6 +209,18 @@ body.dark-theme .btn {
     width: 30px;
   cursor: pointer;
     /* display: none; */
+  }
+  .contact-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .contact-link:hover {
+    background: rgba(255, 255, 255, 0.2);
   }
 
 }
