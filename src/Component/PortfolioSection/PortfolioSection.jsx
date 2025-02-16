@@ -18,14 +18,15 @@ const PortfolioSection = () => {
               <div className="project-content">
                 <h2>{project.title}</h2>
                 <p>{project.description}</p>
-                <button className="view-more">
-                  <span><img src={assets.send_icon} alt="" /></span>
-                </button>
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="view-more">
+                  <span>
+                    <img src={assets.send_icon} alt="View Project" />
+                  </span>
+                </a>
               </div>
             </div>
           ))}
         </div>
-        <button className="show-more">Show more →</button>
       </section>
     </section>
   );

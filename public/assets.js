@@ -45,22 +45,22 @@ export const workData = [
     {
         title: 'Frontend project',
         description: 'Web Design',
-        bgImage: '/work-1.png',  // ✅ Correct path
+        bgImage: '/work1.png',  // ✅ Correct path
     },
     {
         title: 'Geo based app',
         description: 'Mobile App',
-        bgImage: '/work-2.png',  // ✅ Correct path
+        bgImage: '/Work2.png',  // ✅ Correct path
     },
     {
         title: 'Photography site',
         description: 'Web Design',
-        bgImage: '/work-3.png',  // ✅ Correct path
+        bgImage: '/Work3.png',  // ✅ Correct path
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
-        bgImage: '/work-4.png',  // ✅ Correct path
+        bgImage: '/Work4.png',  // ✅ Correct path
     },
 ];
 

@@ -78,24 +78,40 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
-    bgImage: "/work-1.png", // ✅ Correct path
+    title: "Chat Application",
+    description: "A real-time chat app with instant messaging, notifications, user search, and a responsive design.",
+    bgImage: "/work1.png", // ✅ Correct path
+    link:"https://chat-app-pied-phi.vercel.app/"
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png", // ✅ Correct path
+    title: "ShopMart",
+    description: "A modern shopping website with a sleek UI, product search, cart management, and a responsive design.",
+    bgImage: "/Work2.png", // ✅ Correct path
+     link:"https://shop-mart-gamma.vercel.app/"
   },
   {
-    title: "Photography site",
-    description: "Web Design",
-    bgImage: "/work-3.png", // ✅ Correct path
+    title: "TextUtils",
+    description: "A text utility website for text formatting, case conversion, word count, and real-time text analysis.",
+    bgImage: "/Work3.png", // ✅ Correct path
+     link:"https://text-utils-eight-delta.vercel.app/"
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png", // ✅ Correct path
+    title: "Portfolio",
+    description: "A simple portfolio showcasing projects, skills, and contact details using HTML, CSS, and JavaScript.",
+    bgImage: "/Work4.png", // ✅ Correct path
+     link:"https://portfolio-seven-khaki-16.vercel.app/"
+  },
+  {
+    title: "Image Slider",
+    description: "An interactive image slider with smooth transitions, autoplay, and navigation controls using HTML, CSS, and JavaScript. ",
+    bgImage: "/Work6.png", // ✅ Correct path
+     link:"https://harshkanaujia15.github.io/project/"
+  },
+  {
+    title: "Amazon Front page clone",
+    description: "A static Amazon front page clone with a navbar, product sections, and basic styling using HTML & CSS.",
+    bgImage: "/Work5.png", // ✅ Correct path
+     link:"https://amazon-clone-ashy-six.vercel.app/"
   },
 ];
 
