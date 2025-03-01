@@ -78,6 +78,12 @@ export const assets = {
 
 export const workData = [
   {
+    title: "Dasborad",
+    description: "An intuitive admin dashboard built with Next.js, offering real-time data visualization, user management, and performance tracking.",
+    bgImage: "/work7.png", // ✅ Correct path
+    link:"https://dasboard-neon.vercel.app/"
+  },
+  {
     title: "Chat Application",
     description: "A real-time chat app with instant messaging, notifications, user search, and a responsive design.",
     bgImage: "/work1.png", // ✅ Correct path
