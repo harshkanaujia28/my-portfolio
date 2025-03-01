@@ -23,9 +23,9 @@ export default function Services() {
             <div className="card-content">
               <h3 className="card-title">{title}</h3>
               <p className="card-description">{description}</p>
-              <a href={link} className="read-more">
+              {/* <a href={link} className="read-more">
                 Read more <img src="src/assets/right-arrow.png" alt="" />
-              </a>
+              </a> */}
             </div>
           </div>
         ))}

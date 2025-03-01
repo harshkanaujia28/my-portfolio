@@ -43,6 +43,7 @@ const App = () => {
               <h3>Tools I use</h3>
               <div className="icons">
                 <img src={assets.vscode} alt="" />
+                <img src={assets.Nextjs} alt="" />
                 <img src={assets.firebase} alt="" />
                 <img src={assets.figma} alt="" />
                 <img src={assets.git} alt="" />

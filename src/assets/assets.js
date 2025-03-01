@@ -7,6 +7,7 @@ import project_icon from "./project-icon.png";
 import project_icon_dark from "./project-icon-dark.png";
 import vscode from "./vscode.png";
 import firebase from "./Vite-react.png";
+import Nextjs from './Nextjs.png' 
 import figma from "./Vercel (2).png";
 import git from "./git.png";
 import mongodb from "./mongodb.png";
@@ -74,47 +75,48 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  Nextjs,
 };
 
 export const workData = [
   {
-    title: "Dasborad",
+    title: "Dasborad(Using Nextjs)",
     description: "An intuitive admin dashboard built with Next.js, offering real-time data visualization, user management, and performance tracking.",
     bgImage: "/work7.png", // ✅ Correct path
     link:"https://dasboard-neon.vercel.app/"
   },
   {
-    title: "Chat Application",
+    title: "Chat Application (Using Vite & React js)",
     description: "A real-time chat app with instant messaging, notifications, user search, and a responsive design.",
     bgImage: "/work1.png", // ✅ Correct path
     link:"https://chat-app-pied-phi.vercel.app/"
   },
   {
-    title: "ShopMart",
+    title: "ShopMart (Using Vite & React js) ",
     description: "A modern shopping website with a sleek UI, product search, cart management, and a responsive design.",
     bgImage: "/Work2.png", // ✅ Correct path
      link:"https://shop-mart-gamma.vercel.app/"
   },
   {
-    title: "TextUtils",
+    title: "TextUtils (Using React",
     description: "A text utility website for text formatting, case conversion, word count, and real-time text analysis.",
     bgImage: "/Work3.png", // ✅ Correct path
      link:"https://text-utils-eight-delta.vercel.app/"
   },
   {
-    title: "Portfolio",
+    title: "Portfolio (HTML CSS javascript)",
     description: "A simple portfolio showcasing projects, skills, and contact details using HTML, CSS, and JavaScript.",
     bgImage: "/Work4.png", // ✅ Correct path
      link:"https://portfolio-seven-khaki-16.vercel.app/"
   },
   {
-    title: "Image Slider",
+    title: "Image Slider (HTML CSS javascript)",
     description: "An interactive image slider with smooth transitions, autoplay, and navigation controls using HTML, CSS, and JavaScript. ",
     bgImage: "/Work6.png", // ✅ Correct path
      link:"https://harshkanaujia15.github.io/project/"
   },
   {
-    title: "Amazon Front page clone",
+    title: "Amazon Front page clone (HTML CSS)",
     description: "A static Amazon front page clone with a navbar, product sections, and basic styling using HTML & CSS.",
     bgImage: "/Work5.png", // ✅ Correct path
      link:"https://amazon-clone-ashy-six.vercel.app/"
@@ -126,14 +128,14 @@ export const serviceData = [
     icon: assets.web_icon,
     title: " Website Development",
     description:
-      "Building responsive, fast, and interactive websites using React, Next.js, Vue.js, or plain HTML, CSS, JavaScript.",
+      "Building responsive, fast, and interactive websites using React, Next.js or plain HTML, CSS, JavaScript.",
     link: "",
   },
   {
     icon: assets.mobile_icon,
     title: " E-commerce Frontend Development ",
     description:
-      "Developing e-commerce websites using React.",
+      "Developing e-commerce websites using React, Next.js, or plain HTML, CSS, JavaScript.",
     link: "",
   },
   {
@@ -178,4 +180,5 @@ export const toolsData = [
   assets.mongodb,
   assets.figma,
   assets.git,
+  assets.Nextjs,
 ];
