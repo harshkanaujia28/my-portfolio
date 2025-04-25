@@ -26,7 +26,7 @@ const App = () => {
               <div className="card">
                 <img src={assets.code_icon} alt="" />
                 <h3>Languages</h3>
-                <p>HTML, CSS, JavaScript, React Js</p>
+                <p>HTML, CSS, JavaScript, React Js, Next Js</p>
               </div>
               <div className="card">
                 <img src={assets.edu_icon} alt="" />
@@ -36,7 +36,7 @@ const App = () => {
               <div className="card">
                 <img src={assets.project_icon} alt="" />
                 <h3>Projects</h3>
-                <p>Built 4 projects</p>
+                <p>Built 7 projects</p>
               </div>
             </div>
             <div className="tools">
