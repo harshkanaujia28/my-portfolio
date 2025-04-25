@@ -12,8 +12,7 @@ export default function Services() {
         <h2 className="subheading">What I offers</h2>
         <h1 className="main-heading">My services</h1>
         <p className="description">
-          I am a frontend developer from California, USA with 10 years of
-          experience in multiple companies like Microsoft, Tesla and Apple.
+         
         </p>
       </div>
       <div className="cards">
