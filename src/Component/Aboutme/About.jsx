@@ -16,17 +16,23 @@ const App = () => {
           </div>
           <div className="content">
             <p>
-              I’m a Front-End Developer specializing in React and Vite,
-              passionate about creating modern, high-performance web solutions.
-              With a solid understanding of JavaScript, CSS, and HTML, I focus
-              on building seamless, responsive, and user-friendly interfaces
-              that deliver great user experiences.
+              Hi, I’m Harsh. I started as a frontend developer, working with
+              React and Next.js to build clean, user-friendly interfaces. Later,
+              I expanded into backend development — for example, in my client
+              projects like Zafrine e-commerce, where I handled the backend
+              along with domain setup, VPS hosting, and Razorpay integration.
+              I’ve also worked on a leather brand website and a CRM tool,
+              gaining real-world experience in full-stack development. Each
+              project has helped me grow, from crafting interfaces to
+              integrating full systems. I enjoy solving problems through code
+              and creating applications that feel simple, intuitive, and useful
+              for people.
             </p>
             <div className="cards">
               <div className="card">
                 <img src={assets.code_icon} alt="" />
                 <h3>Languages</h3>
-                <p>HTML, CSS, JavaScript, React Js, Next Js</p>
+                <p>HTML, CSS, JavaScript, React Js, Next Js,Tailwind css</p>
               </div>
               <div className="card">
                 <img src={assets.edu_icon} alt="" />
@@ -36,7 +42,7 @@ const App = () => {
               <div className="card">
                 <img src={assets.project_icon} alt="" />
                 <h3>Projects</h3>
-                <p>Built 7 projects</p>
+                <p>Built 4 real word projects</p>
               </div>
             </div>
             <div className="tools">

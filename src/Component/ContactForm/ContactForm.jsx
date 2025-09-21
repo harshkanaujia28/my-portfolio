@@ -47,7 +47,8 @@ const ContactForm = ({ darkMode }) => {
             </div>
             <textarea placeholder="Enter your message" name="message" required></textarea>
             <button type="submit">Submit now →</button>
-            <p>{result}</p>
+           <p className="result-text">{result}</p>
+
           </form>
           <footer className="contact-footer">
             <h2>ℋ𝒜ℛ𝒮ℋ.</h2>

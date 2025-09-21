@@ -1,4 +1,4 @@
-import user_img from "./User-img.jpg";
+import user_img from "./Gemini_Generated_Image_m86b5em86b5em86b.png";
 import code_icon from "./code-icon.png";
 import code_icon_dark from "./code-icon-dark.png";
 import edu_icon from "./edu-icon.png";
@@ -80,78 +80,63 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Dasborad(Using Nextjs)",
-    description: "An intuitive admin dashboard built with Next.js, offering real-time data visualization, user management, and performance tracking.",
-    bgImage: "/work7.png", // ✅ Correct path
-    link:"https://dasboard-neon.vercel.app/"
+    title: "Zafrine E-commerce Website",
+     description: "A full-featured e-commerce platform with an admin panel. I completed the backend with guidance, managing products, orders, and user authentication. Deployed live on a custom domain via VPS and integrated Razorpay for seamless payments.",
+    bgImage: "/Work1.png",
+    link: "https://www.zafrine.in/"
   },
   {
-    title: "Chat Application (Using Vite & React js)",
-    description: "A real-time chat app with instant messaging, notifications, user search, and a responsive design.",
-    bgImage: "/work1.png", // ✅ Correct path
-    link:"https://chat-app-pied-phi.vercel.app/"
+    title: "Leather E-commerce Website",
+    description: "A modern shopping website for leather products with a sleek frontend, admin panel, and product management features.",
+    bgImage: "/work3.png",
+    link: "https://koza-leather.netlify.app/"
   },
   {
-    title: "ShopMart (Using Vite & React js) ",
-    description: "A modern shopping website with a sleek UI, product search, cart management, and a responsive design.",
-    bgImage: "/Work2.png", // ✅ Correct path
-     link:"https://shop-mart-gamma.vercel.app/"
+    title: "Hotel Booking Management System",
+    description: "A complete hotel booking platform with an admin panel for managing bookings, rooms, and payments, plus a CRM ticket system for support.",
+    bgImage: "/work4.png",
+    link: "https://quickstaydemo.netlify.app/"
   },
   {
-    title: "TextUtils (Using React",
-    description: "A text utility website for text formatting, case conversion, word count, and real-time text analysis.",
-    bgImage: "/Work3.png", // ✅ Correct path
-     link:"https://text-utils-eight-delta.vercel.app/"
-  },
-  {
-    title: "Portfolio (HTML CSS javascript)",
-    description: "A simple portfolio showcasing projects, skills, and contact details using HTML, CSS, and JavaScript.",
-    bgImage: "/Work4.png", // ✅ Correct path
-     link:"https://portfolio-seven-khaki-16.vercel.app/"
-  },
-  {
-    title: "Image Slider (HTML CSS javascript)",
-    description: "An interactive image slider with smooth transitions, autoplay, and navigation controls using HTML, CSS, and JavaScript. ",
-    bgImage: "/Work6.png", // ✅ Correct path
-     link:"https://harshkanaujia15.github.io/project/"
-  },
-  {
-    title: "Amazon Front page clone (HTML CSS)",
-    description: "A static Amazon front page clone with a navbar, product sections, and basic styling using HTML & CSS.",
-    bgImage: "/Work5.png", // ✅ Correct path
-     link:"https://amazon-clone-ashy-six.vercel.app/"
-  },
+    title: "CRM Ticket System",
+    description: "A CRM tool with ticket management, user requests, and tracking system to streamline customer support and communication.",
+    bgImage: "/work2.png",
+    link: "http://82.25.109.100:3000/login"
+  }
 ];
+
 
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: " Website Development",
+    title: "Website Development",
     description:
-      "Building responsive, fast, and interactive websites using React, Next.js or plain HTML, CSS, JavaScript.",
+      "Designing and building responsive, fast, and user-friendly websites using React, Next.js, or core HTML, CSS, and JavaScript.",
     link: "",
   },
   {
     icon: assets.mobile_icon,
-    title: " E-commerce Frontend Development ",
+    title: "E-commerce Frontend Development",
     description:
-      "Developing e-commerce websites using React, Next.js, or plain HTML, CSS, JavaScript.",
+      "Developing e-commerce platforms with smooth user interfaces, optimized performance, and secure frontend integrations.",
     link: "",
   },
   {
     icon: assets.ui_icon,
-    title: " Bug Fixing & Maintenance",
+    title: "Bug Fixing & Maintenance",
     description:
-     "Debugging and fixing issues related to responsiveness, JavaScript errors, and browser compatibility",
+      "Debugging and resolving issues related to responsiveness, JavaScript errors, and browser compatibility to ensure seamless performance.",
     link: "",
   },
   {
     icon: assets.graphics_icon,
-    title: " Frontend for Web Applications",
-    description: "Developing single-page applications",
+    title: "Frontend for Web Applications",
+    description:
+      "Creating modern single-page applications with scalable and maintainable frontend architecture.",
     link: "",
   },
 ];
+
 
 export const infoList = [
   {
